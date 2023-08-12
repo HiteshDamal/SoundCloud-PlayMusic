@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-ser;
+    
+}
+.songlist h1{
+    color:blueviolet
+}
+.songlist h1:hover{
+    color: green;
+}
+span:hover{
+    color: bisque;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+.brand img{
+    width: 45px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 0;
+}
+nav{
+    background-color: black;
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav ul li :hover{
+    color: green;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.bigcontainer{
+    background: linear-gradient( to right bottom ,blue ,red );
+    display: flex;
+}
+.container
+{
+    position: relative;
+    min-height: 72vh;
+    color: black;
+    margin: 10px auto;
+    display: flex;
+    width: 70%;
+   border-radius: 11px;
+   padding: 30px;
+   background-image: url('bg2.jpg');
+   background-repeat:no-repeat;
+   background-size: cover;
+
+}
+.songItemContainer{
+    margin-top: 74px;
+    width: 35vw;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rebeccapurple;
+    color: white;
+    margin: 11px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 70px;
+    height: 37px;
+    padding: 0 10px;
+    border-radius: 18px;
+    margin: 1px 4px;
+}
+.songInfo img{
+    width: 70px;
+    height: 37px;
+    padding: 0 10px;
+    border-radius: 18px;
+    margin: 1px 4px;
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+#myProgressBar{
+    width: 70vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 14vw;
+    font-family: 'Varela Round', sans-serif;
+}
+ img{
+    width: 70px;
+    height: 37px;
+    padding: 0 10px;
+    border-radius: 18px;
+    margin: 1px 4px;
+
+} 
+.songlist{
+    color: white;
+}
+.songInfo img{
+   
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+/* About css */
+/* .first img{
+    height: 550px;
+    width: 800px;
+
+} */
+.about-container{
+    background:linear-gradient(to left,blue,green 70%);
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);   
+}
+.first{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+.first h1{
+    font-size: 90px;
+    
+}
+.first  p{
+    font-size: 20px;
+}
+.first img{
+    height: 500px;
+    width: 100%;
+    margin:0;
+    padding: 0;
+} 
+.card-1{
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding:  40px 80px;
+    text-align: justify;
+}
+.second img{
+    height: 200px;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    margin-bottom: 20px;
+  
+} 
+.second  p{
+    font-size: 20px;
+    
+}
+.second h3{
+    font-size: 20px;
+    color: rgb(42, 255, 42);
+    margin-bottom: 20px;
+}
+.card-2{ 
+    border: 1px solid black;
+    text-align: justify;
+    padding: 40px 40px;  
+}
+
+.third h1{
+    font-size: 50px;
+
+}
+.third img{
+    height: 200px;
+    width: 80%;
+    margin:0;
+    padding: 0;
+} 
+.third button{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(50, 250, 50);
+    border-radius: 50px;
+    outline: none;
+}
+
+.card-3{
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth p{
+    font-size: 30px;
+    padding: 0px 20px;
+    line-height: 40px;
+}
+.card-3:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.card-4{
+    background-color: #00d084;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 70px ;  
+}
+.fifth h3{
+    font-size: 70px;
+}
+.fifth button{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    line-height: 50px;
+    /* text-align: center; */
+    background-color: rgb(50, 250, 50);
+    border-radius: 50px;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+}
+.card-5{
+    background-color: black;
+    border: 1px solid black;   
+    padding: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 30px;
+}
+ img{
+    height: 200px;
+    width: 100%;
+    margin:0;
+    padding: 0;
+
+}
+.card-6{
+    border: 1px solid black;   
+    padding: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+}
+.card-7{
+    border: 1px solid black;   
+    padding: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+   
+}
+.card-8{
+    border: 1px solid black;   
+    padding: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.card-6:hover{
+    background-color: aquamarine;
+    color: black;
+
+}
+.card-7:hover{
+    background-color: aquamarine;
+    color: black;
+
+}
+.card-8:hover{
+    background-color: aquamarine;
+    color: black;
+}
+/* footer css */
+
+.footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    padding:80px 100px 50px 100px;
+    gap: 42px;
+   
+}
+.foot h3{
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+}
+.foot h3:hover{
+    color: greenyellow;
+    
+}
+
+.foot2{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 0;
+
+}
+.foot2 h3:hover{
+    color: greenyellow;
+
+}
+.foot2 h3{
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+div+h3{
+    color: #00d084;
+}

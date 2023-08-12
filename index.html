@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoundCloud - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=PT+Serif&family=Playfair:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.jpg" /></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/About.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="bigcontainer">
+      <div class="container">
+        <div class="songlist">
+          <h1>Top 10 Anime Song <strong>2023</strong></h1>
+          <div class="songItemContainer">
+            <div class="songItem">
+              <img src="cover/bleach.jpg" alt="1" />
+              <span class="songName">Number One -Bankaii</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >04:34
+                  <i id="0" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+            <div class="songItem">
+              <img src="cover/april.jpg" alt="1" />
+              <span class="songName">Your Lie in April(Hikaru-Nara)</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >04:14
+                  <i id="1" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+            <div class="songItem">
+              <img src="cover/crybaby.jpg" alt="1" />
+              <span class="songName">CRY BABY</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >03:59
+                  <i id="2" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+            <div class="songItem">
+              <img src="cover/la espada.jpg" alt="1" />
+              <span class="songName">La espada</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >00:50
+                  <i id="3" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+            <div class="songItem">
+              <img src="cover/naruto.jpg" alt="1" />
+              <span class="songName">Blue Bird(Naruto)</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >03:44
+                  <i id="4" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+            <div class="songItem">
+              <img src="cover/shinzo.jpg" alt="1" />
+              <span class="songName">Attack on titan</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >05:41
+                  <i id="5" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+            <div class="songItem">
+              <img src="cover/1.jpg" alt="1" />
+              <span class="songName">JJK Ost</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >00:30
+                  <i id="6" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+            <div class="songItem">
+              <img src="cover/2.jpg" alt="1" />
+              <span class="songName">Shinji</span>
+              <span class="songlistplay"
+                ><span class="timestamp"
+                  >00:30
+                  <i id="7" class="far songItemPlay fa-play-circle"></i> </span
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" width="32px" alt="" id="gif" />
+        <span id="masterSongName">Number One-Bankai</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/26504e4a1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
