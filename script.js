@@ -16,8 +16,8 @@ let songs=[
     {songName:"La espada",filepath:"songs/4",coverpath:"cover/la espada.jpg"},
     {songName:"Blue Bird(Naruto)",filepath:"songs/5",coverpath:"cover/naruto.jpg"},
     {songName:"Attack on titan",filepath:"songs/6",coverpath:"cover/shinzo.jpg"},
-    {songName:"Mai toh Party kar rhi thi",filepath:"songs/7",coverpath:"cover/1.jpg"},
-    {songName:"Joker",filepath:"songs/8",coverpath:"cover/2.jpg"}
+    {songName:"JJK Ost",filepath:"songs/7",coverpath:"cover/1.jpg"},
+    {songName:"Shinj",filepath:"songs/8",coverpath:"cover/2.jpg"}
 
 ]
 masterPlay.addEventListener('click', ()=>{
